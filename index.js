@@ -23,7 +23,7 @@ const requestListener = function(req, res){
   }
 };
 
-const server = httpcreateServer(requestListener);
+const server = http.createServer(requestListener);
 
 const host = "0.0.0.0";
 const port = "8080";
